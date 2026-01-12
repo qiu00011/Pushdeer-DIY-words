@@ -1,5 +1,5 @@
 // 昵称库
-const nicknames = ["考研人🎓", "", "Hello,yes it's me 🌚", "Maintain self-discipline 👊", "随机抽查 👮", "Are u remember me? 😏", "Come on, let’s study together! 💪"];
+const nicknames = ["考研人🎓", "Hello,yes it's me 🌚", "Maintain self-discipline 👊", "随机抽查 👮", "Are u remember me? 😏", "Come on, let’s study together! 💪"];
 
 // --- 核心数据：考研终极易混词库 (350+组) ---
 const confusingGroups = [
@@ -258,3 +258,4 @@ export default {
      return new Response(text, { status: 200, headers: {'content-type': 'text/plain; charset=utf-8'} });
   }
 };
+
